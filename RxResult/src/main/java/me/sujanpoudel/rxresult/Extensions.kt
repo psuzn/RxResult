@@ -1,3 +1,6 @@
+@file:JvmName("RxResult")
+@file:JvmMultifileClass
+
 package me.sujanpoudel.rxresult
 
 import android.content.Intent

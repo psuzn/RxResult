@@ -17,14 +17,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val intent = Intent()
-        intent.type = "image/*"
-        intent.action = Intent.ACTION_GET_CONTENT
+        val intent = Intent().apply {
+            intent.type = "image/*"
+            intent.action = Intent.ACTION_GET_CONTENT
+        }
 
-        disposeBag.add(startForResult(subject)
-            .subscribe { it ->
-                Log.d("result is", "${it}")
-            })
+    disposeBag.add(startForResult(subject)
+        .subscribe { it ->
+            Log.d("result is", "${it}")
+        })
 
         disposeBag.add(startForResult(Intent.createChooser(intent, "Select Picture"))
             .observeOn(AndroidSchedulers.mainThread())
