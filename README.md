@@ -147,7 +147,7 @@ You can have multiple intent source for different type of results
 
 ## Bugs and Feedback
 
-For bugs, questions and discussions please use the [Github Issues](https://github.com/psuzn/RxResult).
+For bugs, questions and discussions please use the [Github Issues](https://github.com/psuzn/RxResult/issues/new).
 
 ## License
 ```
