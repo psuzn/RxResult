@@ -21,7 +21,7 @@ allprojects {
 }
 
 dependencies {
-    implementation 'me.sujanpoudel.rxresult:latest_version'
+    implementation 'com.github.psuzn:RxResult:$latest_version'
 }
 
 ```
