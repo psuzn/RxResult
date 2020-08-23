@@ -4,10 +4,13 @@ This library allows the usage of RxJava with the new Activity Result APIs are ma
 
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
+[![API](https://img.shields.io/badge/API-19%2B-blue.svg?style=flat)](https://source.android.com/setup/start/build-numbers)
+[![](https://jitpack.io/v/psuzn/RxResult.svg)](https://jitpack.io/#psuzn/RxResult)
 
 
 ## Setup
+
+[![](https://jitpack.io/v/psuzn/RxResult.svg)](https://jitpack.io/#psuzn/RxResult)
 
 ```
 allprojects {
@@ -25,7 +28,7 @@ dependencies {
 
 ## Usage
 
->  These example are using Activity you can do also use it in Fragment.
+>  These example are using Activity, you can also use it in Fragment.
 
 ##### Kotlin
 
@@ -147,7 +150,7 @@ You can have multiple intent source for different type of results
 
 ## Bugs and Feedback
 
-For bugs, questions and discussions please use the [Github Issues](https://github.com/psuzn/RxResult/issues/new).
+For bugs, questions and discussions please use the [Github Issues](https://github.com/psuzn/RxResult).
 
 ## License
 ```
